@@ -26,11 +26,11 @@ const Navbar = () => {
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
               <NavLink to="/" activeClassName="active" exact>
-                HOME
+                Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/products" activeClassName="active">CATÁLOGO</NavLink>
+              <NavLink to="/products" activeClassName="active">Catálogo</NavLink>
             </li>
           </ul>
         </div>
