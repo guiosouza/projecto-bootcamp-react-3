@@ -1,4 +1,28 @@
+.container {
+    padding: 10px
+}
+
 .search-card {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
+    height: 86px;
+}
+
+.search-card button {
+    border-radius: 0px 5px 5px 0px;
+    height: 42px;
+}
+
+.search-card input {
+    border: none;
+    height: 41px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-card ::placeholder {
+    font-size: 14px;
+    padding-left: 13px;
+    color:  #A7A7A7;
 }
