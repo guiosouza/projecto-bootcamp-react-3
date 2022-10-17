@@ -1,5 +1,9 @@
 .product-card {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.col-sm-6 {
+    padding: 0px 10px 0px 10px;
 }
 
 .card-top-container {
@@ -13,7 +17,7 @@
 }
 
 .card-bottom-container {
-    padding: 15px 20px 30px 20px;
+    padding: 15px 20px 15px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,5 +46,18 @@
     font-size: 14px;
     color: #FFFFFF;
     border: none;
+    width: 257.93px;
+}
+
+@media(min-width: 576px) {
+
+    .card-bottom-container p {
+        font-size: 12px;
+        width: 220px;
+        height: 28px;
+    }
+    .card-bottom-container button {
+        width: 220.93px;
+    }
 }
 

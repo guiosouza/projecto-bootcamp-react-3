@@ -1,5 +1,5 @@
-.container {
-    padding: 10px
+.col-sm-12 {
+    padding: 0px 10px 0px 10px;
 }
 
 .search-card {
@@ -17,12 +17,35 @@
 
 .search-card input {
     border: none;
-    height: 41px;
+    height: 40px;
     border-radius: 5px 0px 0px 5px;
+    padding: 13px;
+    outline:none;
+    color:#A7A7A7;
+    font-size: 14px;
 }
 
-.search-card ::placeholder {
-    font-size: 14px;
-    padding-left: 13px;
-    color:  #A7A7A7;
+@media(min-width: 576px) {
+
+    .search-card {
+        margin-bottom: 30px;
+        height: 123px;
+    }
+
+    .search-card input {
+        border: none;
+        height: 40px;
+        border-radius: 5px 0px 0px 5px;
+        padding: 13px;
+        outline:none;
+        color:#A7A7A7;
+        font-size: 14px;
+        width: 320px;
+    }
+
+    .search-card button {
+        border-radius: 0px 5px 5px 0px;
+        height: 42px;
+        width: 174px;
+    }
 }
