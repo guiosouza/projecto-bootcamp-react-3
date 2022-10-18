@@ -4,13 +4,10 @@ import './styles.css';
 
 const Catalog = () => {
   return (
-    <div className="container">
+    <div className="container my-4">
       <div className="row">
         <div className="col-sm-12 col-lg-12 col-xl-12">
           <SearchCard/>
-        </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
-          <ProductCard />
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-4">
           <ProductCard />
