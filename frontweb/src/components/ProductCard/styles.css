@@ -48,8 +48,9 @@
 
 
 @media(min-width: 576px) {
+
     .product-card {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         height: 347px;
     }
 
@@ -64,4 +65,14 @@
         width: 220px;
     }
     
+    .card-bottom-container button {
+        width: 220px;
+    }
+
+    .card-bottom-container p {
+        font-size: 12px;
+        color: #585858;
+        line-height: 16px;
+        margin-bottom: 38px;
+    }
 }
