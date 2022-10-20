@@ -33,6 +33,7 @@
     color: #585858;
     line-height: 16px;
     margin-bottom: 38px;
+    font-style: italic;
 }
 
 .card-bottom-container button {
@@ -74,5 +75,30 @@
         color: #585858;
         line-height: 16px;
         margin-bottom: 38px;
+        font-style: italic;
+    }
+}
+
+@media(min-width: 768px) {
+
+    .card-bottom-container button {
+        width: 307px;
+    }
+
+    .card-bottom-container p {
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+
+@media(min-width: 992px) {
+
+    .card-bottom-container button {
+        width: 257.31px;
+    }
+
+    .card-bottom-container p {
+        font-size: 14px;
+        font-style: italic;
     }
 }
