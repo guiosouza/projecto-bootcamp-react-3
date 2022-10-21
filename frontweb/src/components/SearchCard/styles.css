@@ -92,6 +92,30 @@
     .search-card button {
         border-radius: 0px 5px 5px 0px;
         height: 42px;
+    }
+}
+
+@media(min-width: 1280px) {
+
+    .search-card {
+        margin-bottom: 30px;
+        height: 123px;
+    }
+
+    .search-card input {
+        border: none;
+        height: 40px;
+        border-radius: 5px 0px 0px 5px;
+        padding: 13px;
+        outline:none;
+        color:#A7A7A7;
+        font-size: 14px;
+        width: 584px;
+    }
+
+    .search-card button {
+        border-radius: 0px 5px 5px 0px;
+        height: 42px;
         width: 174px;
     }
 }

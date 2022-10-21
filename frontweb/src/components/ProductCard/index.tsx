@@ -1,5 +1,4 @@
 import './styles.css';
-import ProductPrice from 'components/ProductPrice';
 import ProductCarImg from 'assets/images/car-card.png'; 
 
 const productCard = () => {

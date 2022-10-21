@@ -1,7 +1,8 @@
 .home-container {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 60px 10px;
     font-size: 22px;
     text-align: center;
+    background-color: #ffffff
 }
 
 .banner-card {
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cfcfcf;
+    background-color:#EDEDED;
     border-radius: 10px;
     margin-top: 21px;
     padding: 28px 51px 25px 51px;
@@ -70,7 +71,7 @@
 @media (min-width: 576px) {
 
     .home-container {
-        padding: 30px 20px 10px;
+        padding: 30px 20px 60px;
         font-size: 36px;
     }
 
@@ -110,6 +111,10 @@
 }
 
 @media (min-width: 768px) {
+
+    .home-container {
+        padding: 30px 20px 135px;
+    }
 
     .banner-image-container {
         padding: 79px 198px 37px 198px;
@@ -168,7 +173,7 @@
 @media (min-width: 1280px) {
 
     .home-container {
-        padding: 30px 150px 255px 150px;
+        padding: 30px 150px 105px 150px;
     }
 
 
