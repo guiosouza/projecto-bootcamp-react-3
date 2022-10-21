@@ -1,5 +1,5 @@
 import BannerImage from 'assets/images/main-image.png'; 
-import Navbar from 'components/Navbar';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Home = () => {
@@ -16,8 +16,10 @@ const Home = () => {
           </div>
         </div>
         <div className="card-home-catalog">
+          <Link to="/products">
             <button>VER CATÁLOGO</button>
-            <p>Comece agora a navegar</p>
+          </Link> 
+          <p>Comece agora a navegar</p>
         </div>
       </div>
     </>
